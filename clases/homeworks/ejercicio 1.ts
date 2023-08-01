@@ -10,15 +10,15 @@ let resultado = variableExplicita + variableInferida
 
 //completar el tipado correspondiente para cada variable
 
-let unString: null = 'mati';
+let unString: null = null;
 
-let unNumber: null = 2;
+let unNumber: null = null;
 
-let unBoolean: null = true;
+let unBoolean: null = null;
 
-let unNull: undefined = null; //que pasa aca?
+let unNull: undefined = undefined; //que pasa aca?
 
-let unUndefined: null = undefined //y aca?
+let unUndefined: null = null //y aca?
 
 	
 // Enum

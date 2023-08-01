@@ -1,6 +1,6 @@
 class Person {
-    protected name: string;
-    protected age: number;
+     name: string;
+     age: number;
     //private mail: string;
     constructor(name: string, age: number) {
       this.name = name;
@@ -9,7 +9,7 @@ class Person {
   }
   
   class Student extends Person {
-    private regular: boolean;
+     regular: boolean;
     
     constructor(name: string, age: number, regular: boolean) {
       super(name, age);
@@ -29,4 +29,9 @@ class Person {
   student.regular; // Property 'regular' is private and only accessible within class 'Student'
 
 //proba como cambiar los modificadores de atributos de la clase!
+
+
+//LISTO, borre de ambas clases las palabras protected y private, 
+//por ende cuando ejecuto student.name/student.age/student.regular 
+//no me tira problemas por que pasan a ser varibles publicas
   export {}
